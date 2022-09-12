@@ -71,6 +71,7 @@ public class Kite_Text extends Base_Class{
 	@AfterClass
 	public void CloseApp() {
 		Reporter.log("Close Application",true);
+		System.out.println(CloseApp);
 	}
 	
 	
